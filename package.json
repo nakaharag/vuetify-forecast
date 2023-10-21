@@ -1,0 +1,35 @@
+{
+  "name": "vuetify-forecast",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@date-io/dayjs": "^2.17.0",
+    "@mdi/font": "7.0.96",
+    "@vueuse/core": "^10.5.0",
+    "axios": "^1.5.1",
+    "core-js": "^3.29.0",
+    "pinia": "^2.0.0",
+    "roboto-fontface": "*",
+    "sass-loader": "10.1.1",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "vue3-geolocation": "^1.0.0",
+    "vuecore": "^1.0.3",
+    "vuetify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.69.4",
+    "unplugin-fonts": "^1.0.3",
+    "vite": "^4.2.0",
+    "vite-plugin-vuetify": "^1.0.0"
+  }
+}

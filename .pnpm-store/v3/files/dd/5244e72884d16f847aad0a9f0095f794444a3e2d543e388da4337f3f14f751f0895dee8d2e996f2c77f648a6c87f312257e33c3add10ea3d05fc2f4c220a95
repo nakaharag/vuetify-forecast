@@ -1,0 +1,30 @@
+.info-box {
+    position: relative;
+    min-width: 200px;
+    max-width: 200px;
+    height: 80px;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    background: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.info-box > h3 {
+    position: absolute;
+    margin: 15px 20px;
+}
+
+.info-box > p {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: #999;
+    font-size: 13px;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
